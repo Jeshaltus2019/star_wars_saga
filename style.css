@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+body {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: cyan;
+    font-size: 20px;
+    margin: 2%;
+    transition: 0.25s;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a:hover {
+    /* color: white; */
+    background: rgb(206, 255, 5);
+    background: linear-gradient(90deg, rgba(206, 255, 5, 1) 18%, rgba(15, 210, 149, 1) 54%, rgba(0, 198, 255, 1) 100%);
+    letter-spacing: 2px;
+}
+
+section {
+    height: 100vh;
+}
+
+.front {
+    background: url("https://wallpaperaccess.com/full/2101913.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Space Mono', monospace;
+}
+
+.card {
+    width: 25%;
+    margin: 2.5%;
+    border: skyblue solid 1px;
+    border-radius: 10px;
+    height: 100%;
+    /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-desc {
+    margin: 5%;
+}
+
+.card-desc h1 {
+    text-align: center;
+}
+
+.card-img img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.movies-heading {
+    text-align: center;
+    font-size: 50px;
+    color: seagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.series {
+    height: 100%;
+}
+
+.customer_review {
+    text-align: center;
+    font-size: 25px;
+}
+
+input {
+    font-size: 25px;
+    padding: 10px 15px;
+}
